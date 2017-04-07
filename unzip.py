@@ -1,3 +1,4 @@
+#This script unzips all the zip file present in the given directory.
 import os, zipfile
 
 directory = '/path/of/the/zip/file'
