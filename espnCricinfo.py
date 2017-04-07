@@ -13,7 +13,7 @@ url = 'http://static.cricinfo.com/rss/livescores.xml'
 req = requests.get(url)
 
 soup = BeautifulSoup(req.content,'lxml')
-print (soup.prettify)
+#print (soup.prettify)
 
 for data in soup.find_all('title'):
 	print (data.text)
