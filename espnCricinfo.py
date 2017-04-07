@@ -1,3 +1,7 @@
+#A simple scripts which notifies you of the live scores from espncricinfo. 
+#Made By: Kumar Amit Sinha
+#	  Shiv Nadar University
+
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
